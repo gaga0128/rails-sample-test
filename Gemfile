@@ -21,12 +21,12 @@ gem "factory_bot"
 gem "factory_bot_rails"
 
 group :development, :test do
+  # gem 'debase'
+  # gem 'ruby-debug-ide'
   gem "rspec-rails"
   gem "simplecov"
   gem 'sqlite3', '1.4.1'
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
-  # gem 'debase'
-  # gem 'ruby-debug-ide'
 end
 
 group :development do
