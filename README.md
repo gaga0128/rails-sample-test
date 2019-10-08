@@ -18,6 +18,12 @@ Then install the needed gems (while skipping any gems needed only in production)
 $ bundle install --without production
 ```
 
+Install JavaScript dependencies:
+
+```
+$ yarn install
+```
+
 Next, migrate the database:
 
 ```
