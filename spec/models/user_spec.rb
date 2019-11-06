@@ -50,7 +50,6 @@ RSpec.describe User do
 
   it("email addresses should be unique") do
     duplicate_user = @user.dup
-    duplicate_user.email = @user.email.upcase
     @user.save
     expect(duplicate_user.valid?).to eq(false)
   end
