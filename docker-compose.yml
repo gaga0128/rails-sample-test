@@ -7,6 +7,8 @@ services:
       - ./tmp/db:/var/lib/postgresql/data
     environment:
       POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "54333:5432"
   web:
     build: .
     command: tail -f /dev/null
