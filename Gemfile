@@ -16,8 +16,8 @@ gem 'webpacker',                  '4.0.7'
 gem 'turbolinks',                 '5.2.0'
 gem 'jbuilder',                   '2.9.1'
 gem 'bootsnap',                   '1.4.5', require: false
-gem 'factory_bot',                '5.1.1'
-gem 'factory_bot_rails',          '5.1.1'
+gem 'factory_bot',                '6.1.0'
+gem 'factory_bot_rails',          '6.1.0'
 
 group :development, :test do
   # gem 'debase'
